@@ -28,7 +28,7 @@ end
 
 def swap_elements (array, index, dest_index)
   return false if array.length - 1 > dest_index
-  temp = array[des_index]
+  temp = array[dest_index]
   array[dest_index] = array[index]
   array[index] = temp
 end
