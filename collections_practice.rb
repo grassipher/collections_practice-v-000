@@ -16,11 +16,11 @@ end
 
 def sort_array_char_count(array)
   array.sort do |a,b|
-    if a.count == b.count
+    if a.digit.count == b.digit.count
       0
-    elsif a.count < b.count
+    elsif a.digit.count < b.digit.count
       -1
-    elsif a.count > b.count
+    elsif a.digit.count > b.digit.count
       1
     end  
   end
