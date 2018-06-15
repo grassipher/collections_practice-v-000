@@ -25,3 +25,7 @@ def sort_array_char_count(array)
     end  
   end
 end
+
+def swap_elements (array, index, dest_index)
+  return false if array.length - 1 > dest_index
+end
