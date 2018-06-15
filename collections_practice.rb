@@ -48,3 +48,11 @@ def reverse_array(array)
   end
   return new_array
 end
+
+def kesha_maker(array)
+  new_array = []
+  array.each do |element|
+    element = element.slice(0,2) + "$" + element.slice(3)
+  end
+  return new_array
+end
