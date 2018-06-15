@@ -52,7 +52,7 @@ end
 def kesha_maker(array)
   new_array = []
   array.each do |element|
-    new_array << element.slice(0,2) + "$" + element.slice(3)
+    new_array << element.slice(0,2) + "$" + element.slice(3,element.length)
   end
   return new_array
 end
