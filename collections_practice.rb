@@ -38,4 +38,5 @@ def swap_elements_from_to(array, index, dest_index)
   temp = array[dest_index]
   array[dest_index] = array[index]
   array[index] = temp
+  return array
 end
