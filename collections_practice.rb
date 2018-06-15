@@ -40,3 +40,11 @@ def swap_elements_from_to(array, index, dest_index)
   array[index] = temp
   return array
 end
+
+def reverse_array(array)
+  new_array = []
+  array.each do |element|
+    new_array.unshift(element)
+  end
+  return new_array
+end
