@@ -56,3 +56,9 @@ def kesha_maker(array)
   end
   return new_array
 end
+
+def find_a(array)
+  array.collect do |element|
+    element.start_with?("a")
+  end
+end
